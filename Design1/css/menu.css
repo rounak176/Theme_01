@@ -15,9 +15,10 @@ html {
 }
 
 .navbar {
-    border-bottom: 2px solid #000;
+    border-bottom: 1px solid #fafafa;
     width: 100%;
-    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12), 0 2px 4px -1px rgba(0, 0, 0, .2);
+    background-color: #fff;
+    box-shadow: 0 2px 2px #000;
 }
 
 .navbar a, .navbar a:hover {
@@ -62,7 +63,6 @@ html {
 }
 
 
-
 @media (max-width: 767px) {
 
     .p-100 {
@@ -82,7 +82,21 @@ html {
     }
 
     .theme01_menu img {
-        width: 75%;
+        width: 80%;
+        padding: 8px;
     }
 
+    .theme01_menu a>span {
+        font-size: 20px;
+        margin: 10px 20px 30px;
+    }
+
+}
+
+
+@media (max-width: 375px) {
+
+    .navbar a, .navbar a:hover {
+        font-size: 37px;
+    }
 }
